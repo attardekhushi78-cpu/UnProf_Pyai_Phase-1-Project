@@ -1,0 +1,26 @@
+
+#  Python Environment & System Caches
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+.DS_Store
+Thumbs.db
+
+
+#  System Log Channels
+
+app_activity.log
+
+
+#  Generated Pipeline Output Directories
+
+# These directories contain files generated at runtime by your scripts.
+# Ignoring them prevents redundant binaries from flooding your repository.
+data/
+reports/
+visuals/
